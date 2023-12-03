@@ -61,6 +61,7 @@ body{
 }
 .sale{
     padding-left: 20px;
+    max-width: 530px;
 }
 
 .sale-description{
@@ -74,7 +75,7 @@ body{
 }
 .btn{
     background-color: rgba(225, 149, 50, 0.651);
-    color: white;
+    color: black;
     text-decoration: none;
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: 16px;
@@ -83,14 +84,17 @@ body{
 }
 .box{
     position: relative;
+
+    
 }
 .box-price{
     position: absolute;
     right: 0;
 }
 .box-image{
-       max-width: 550px;
-   
+       max-width: 530px;
+
+  
 }
 .box-price_old{
     font-size: 24px;
@@ -106,8 +110,49 @@ body{
     margin: 10px 25px 0px 0px;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
- .mainn{
-   background-color: black;
-    max-width: 1100px;
-    height: 15px;
+
+.page-dark{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 25px 0px;
+}
+ .notice-title{
+    font-size: 30px;
+    text-transform: uppercase;
  }
+ .notice-title>span{
+    font-weight: 700;
+ }
+ .collection{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+ }
+ .collection-man, .collection-women{
+    flex: 0 0 50%;
+    text-transform: uppercase; /*все буквы заглавные*/
+ }
+
+ .btn-second{
+    margin: 0px 0px 0px 20px;
+    
+    background-color: rgba(225, 149, 50, 0.651);
+    color: black;
+    text-decoration: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 16px;
+    font-style: lowercase;
+
+ }
+ .collection-man-image{
+    max-width: 550px;
+ }
+ .collection-women-image{
+    max-width: 550px;
+ }
+.collection-title{
+    margin: 15px 0px 5px 20px;
+}
