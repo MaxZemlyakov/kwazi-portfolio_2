@@ -1,7 +1,7 @@
 body{
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-family: 'Permanent Marker', cursive; 
-    background: url("./img/2.jpg") 50%/cover no-repeat scroll;
+    background: url("./img/1.jpg") 50%/cover no-repeat scroll;
 }
 .wrapper{
     margin: 20px auto;
@@ -137,7 +137,7 @@ body{
  }
 
  .btn-second{
-    margin: 0px 0px 0px 20px;
+    margin: 5px 0px 0px 20px;
     
     background-color: rgba(225, 149, 50, 0.651);
     color: black;
@@ -155,4 +155,23 @@ body{
  }
 .collection-title{
     margin: 15px 0px 5px 20px;
+}
+.new-models{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+}
+.new-models-title{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.produc-title-1, .product-price{
+    color: black;
+}
+#produc-img-1{
+    width: 220px;
 }
