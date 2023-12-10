@@ -13,8 +13,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(232, 213, 69);
-    font-size: 14px ;
+    background-color: rgb(184, 173, 84);
+    font-size: 20px ;
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-weight: bold;
  
@@ -32,7 +32,7 @@ body{
 .nav{
     display: flex;
     list-style-type: none; /* убираем точки перед элементами списка*/
-    padding-left: 0; /* у любого списка есть отступ слева, который нам е нужен*/
+    padding-left: 0; /* у любого списка есть отступ слева, который нам не нужен*/
 }
 .item{
     margin: 1px 0px 1px 52px;
@@ -74,7 +74,7 @@ body{
 }
 .btn{
     padding: 15px 20px;
-    background-color: rgba(225, 149, 50, 0.651);
+    background-color: rgb(232, 213, 69);
     color: black;
     text-decoration: none;
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -138,8 +138,10 @@ body{
 
  .btn-second{
     margin: 5px 0px 0px 20px;
+    padding: 2px;
+
     
-    background-color: rgba(225, 149, 50, 0.651);
+    background-color: rgb(232, 213, 69);
     color: black;
     text-decoration: none;
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -169,6 +171,7 @@ body{
     justify-content: space-between;
     color: black;
 }
+
 .produc-title-1, .product-price{
     color: black;
 }
@@ -178,9 +181,9 @@ body{
 .btn_4{
     margin: 0 auto;
     padding: 15px 20px;
-    max-width: 200px;
+    max-width: 150px;
     display: block;
-    background-color: rgba(225, 149, 50, 0.651);
+    background-color: rgb(232, 213, 69);
     color: black;
     text-decoration: none;
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -197,7 +200,40 @@ body{
    margin-top: 15px;
    color: white;
    background-color: black;
-   
-
+   display: flex;
+   justify-content: space-between;
 }
 
+.footer-logo{
+    max-width: 250px;
+    font-size: 30px;
+    margin: 0 auto;
+}
+.footer-nav{
+    max-width: 850px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+.footer-list,.footer-list-item,.footer-list-link{
+    color: white;
+}
+.footer-list{
+    list-style-type: none;/*убрали точки в элементах списка*/
+}
+.footer-list-link{
+    color: gray;
+    text-decoration: none;
+}
+.footer-list-item-title{
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer-list-item{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.footer-list-link>span{
+    margin-left: 4px;
+}
