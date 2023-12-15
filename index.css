@@ -1,3 +1,4 @@
+@import url(./index.scss);
 body{
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-family: 'Permanent Marker', cursive; 
@@ -11,6 +12,8 @@ body{
 a:hover{color: brown;}
 
 .header{
+ 
+    height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +38,8 @@ a:hover{color: brown;}
     padding-left: 0; /* у любого списка есть отступ слева, который нам не нужен*/
 }
 .item{
-    margin: 1px 0px 1px 52px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 .link{
     color: rgb(16, 14, 5);
@@ -93,6 +97,7 @@ a:hover{color: brown;}
 }
 .box-image{
        max-width: 530px;
+       width: 100%;
 
   
 }
